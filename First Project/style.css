@@ -1,0 +1,91 @@
+body {
+    font-family: 'Grape Nuts', cursive;
+}
+.img{
+    max-width: 100%;
+}
+.hero_image {
+    background-image: url(/Images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.hero_wrapper h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.form_class {
+
+    text-align: center;
+}
+
+.form_class .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+.form_class button {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-top: .7%;
+    background-color: rgb(163, 136, 136);
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    outline: none;
+
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: .1rem;
+}
+
+.product{
+width: 80%;
+margin-top: 3rem;
+margin-right: auto;
+margin-left: auto;
+}
+
+.product_list_ietm{
+     float: left;
+     width: 31% ;
+     margin-left: .5rem;
+}
+
+.product_list_ietm:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width:700px) {
+    .product_list_ietm{
+        width: 100%;
+        float: none;
+    }
+}
+.footer{
+    position: relative;
+    top: 55vh;
+    right: 37vw;
+}
